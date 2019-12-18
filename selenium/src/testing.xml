@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="facebookLoginAutomation suite">
+	<test name="FacebookLogin">
+
+	<parameter name="url" value="http://www.facebook.com"/>
+	<parameter name="username" value="9620933569"/>
+	<parameter name="password" value="mithun@shruthi"/>
+
+	<classes>
+		<class name="parameters.ParameterTest" />
+		<class name="dataProvider.HalfEbayTest" />
+		
+	</classes>
+	</test>
+</suite>

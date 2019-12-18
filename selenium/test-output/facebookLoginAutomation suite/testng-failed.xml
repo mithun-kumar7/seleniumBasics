@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [facebookLoginAutomation suite]">
+  <test thread-count="5" name="FacebookLogin(failed)">
+    <parameter name="password" value="mithun@shruthi"/>
+    <parameter name="url" value="http://www.facebook.com"/>
+    <parameter name="username" value="9620933569"/>
+    <classes>
+      <class name="parameters.ParameterTest">
+        <methods>
+          <include name="halfEbayLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- parameters.ParameterTest -->
+    </classes>
+  </test> <!-- FacebookLogin(failed) -->
+</suite> <!-- Failed suite [facebookLoginAutomation suite] -->
